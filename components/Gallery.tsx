@@ -7,28 +7,34 @@ interface GalleryProps {
 
 const photos = [
   {
+    // Arborist working up in a tree – tree surgery
+    src: 'https://images.unsplash.com/photo-1591825729269-caeb344f6df2?w=800&q=80',
+    alt: 'Treballs de poda professional en altura',
+  },
+  {
+    // Man using chainsaw cutting a tree trunk
+    src: 'https://images.unsplash.com/photo-1562184552-997c461e7a39?w=800&q=80',
+    alt: 'Tala professional d\'arbres amb motosierra',
+  },
+  {
+    // Overgrown / dense undergrowth field
+    src: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80',
+    alt: 'Parcel·la amb vegetació abundant',
+  },
+  {
+    // Workers clearing brush / land
+    src: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80',
+    alt: 'Neteja i desbrossament de terrenys',
+  },
+  {
+    // Fallen logs / tree felling result
+    src: 'https://images.unsplash.com/photo-1511497584788-876760111969?w=800&q=80',
+    alt: 'Resultat de tala i neteja forestal',
+  },
+  {
+    // Tree pruning with professional tools
     src: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80',
-    alt: 'Poda professional d\'arbres',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1592419044706-39796d40f98c?w=800&q=80',
-    alt: 'Tall de gespa professional',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80',
-    alt: 'Jardí ben cuidat',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1611735341450-74d61e660ad2?w=800&q=80',
-    alt: 'Manteniment de jardins',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1599598425947-5202edd56bdb?w=800&q=80',
-    alt: 'Neteja de terrenys',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?w=800&q=80',
-    alt: 'Disseny de jardins',
+    alt: 'Poda professional d\'arbres ornamentals',
   },
 ]
 
@@ -52,9 +58,7 @@ export default function Gallery({ t }: GalleryProps) {
           {photos.map((photo, i) => (
             <div
               key={i}
-              className={`relative overflow-hidden rounded-2xl group ${
-                i === 0 || i === 3 ? 'row-span-1' : ''
-              }`}
+              className="relative overflow-hidden rounded-2xl group"
               style={{ height: i % 3 === 0 ? '280px' : '220px' }}
             >
               <Image
@@ -69,13 +73,13 @@ export default function Gallery({ t }: GalleryProps) {
           ))}
         </div>
 
-        {/* CTA below gallery */}
+        {/* CTA */}
         <div className="text-center mt-12">
           <a
             href="#contacte"
             className="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-bold px-8 py-4 rounded-2xl transition-colors text-lg"
           >
-            Demana el teu pressupost
+            {t.gallery.cta}
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>

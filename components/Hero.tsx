@@ -8,18 +8,17 @@ interface HeroProps {
 export default function Hero({ t }: HeroProps) {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image */}
+      {/* Background image – workers clearing overgrown land / forestry */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=85"
-          alt="Jardí professional al Vallès"
+          src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=85"
+          alt="Professionals treballant en desbrossament de terrenys"
           fill
           className="object-cover"
           priority
           sizes="100vw"
         />
-        {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/55 to-black/30" />
       </div>
 
       {/* Content */}

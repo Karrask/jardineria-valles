@@ -10,12 +10,12 @@ export default function WhyUs({ t }: WhyUsProps) {
     <section className="py-20 lg:py-28 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Image */}
+          {/* Image – professional outdoor/forestry worker */}
           <div className="relative">
             <div className="relative h-[480px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=900&q=85"
-                alt="Professionals de jardineria al Vallès"
+                src="https://images.unsplash.com/photo-1591825729269-caeb344f6df2?w=900&q=85"
+                alt="Professional treballant en poda i tala d'arbres"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -24,7 +24,7 @@ export default function WhyUs({ t }: WhyUsProps) {
             {/* Floating badge */}
             <div className="absolute -bottom-6 -right-6 bg-brand-700 text-white rounded-2xl p-5 shadow-xl">
               <div className="text-3xl font-black">+10</div>
-              <div className="text-sm text-brand-200 font-medium">anys d&apos;experiència</div>
+              <div className="text-sm text-brand-200 font-medium">{t.whyUs.years}</div>
             </div>
           </div>
 
@@ -58,7 +58,7 @@ export default function WhyUs({ t }: WhyUsProps) {
                 className="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-bold px-6 py-3.5 rounded-xl transition-colors"
               >
                 <span>📞</span>
-                Demana pressupost gratuït
+                {t.whyUs.cta}
               </a>
             </div>
           </div>

@@ -13,10 +13,10 @@ export const translations = {
     // Hero
     hero: {
       badge: 'Servei professional al Vallès Occidental',
-      title: 'El seu jardí,',
-      titleHighlight: 'la nostra passió',
+      title: 'La seva finca,',
+      titleHighlight: 'neta i segura',
       subtitle:
-        'Jardineria, desbrossament i manteniment de parcel·les a Terrassa i el Vallès Occidental. Pressupost gratuït en 24 hores.',
+        'Desbrossament, tala d\'arbres i neteja de parcel·les a Terrassa i el Vallès Occidental. Pressupost gratuït en 24 hores.',
       cta: 'Demana pressupost gratuït',
       ctaSecondary: 'Veure serveis',
       stats: [
@@ -28,39 +28,35 @@ export const translations = {
     // Services
     services: {
       badge: 'El que fem',
-      title: 'Serveis professionals de jardineria',
+      title: 'Treballs forestals i de jardineria',
       subtitle:
-        'Oferim una àmplia gamma de serveis per mantenir el seu jardí i parcel·la en perfecte estat durant tot l\'any.',
+        'Desbrossament, tala, poda i neteja de parcel·les i terrenys a tot el Vallès Occidental.',
+      cta: 'Demana pressupost gratuït',
       items: [
         {
           icon: '🌿',
-          title: 'Manteniment de jardins',
-          desc: 'Cura integral del seu jardí: tall de gespa, reg, abonat i tractaments fitosanitaris.',
+          title: 'Desbrossament de parcel·les',
+          desc: 'Neteja i desbrossament de terrenys, parcel·les i solars descuidats amb maquinària professional.',
         },
         {
           icon: '🪚',
-          title: 'Desbrossament de parcel·les',
-          desc: 'Neteja i desbrossament de terrenys, parcel·les i solars de qualsevol mida.',
+          title: 'Tala i poda d\'arbres',
+          desc: 'Tala, desbrancat i poda d\'arbres de qualsevol mida amb les mesures de seguretat adequades.',
         },
         {
           icon: '✂️',
-          title: 'Poda d\'arbres i arbusts',
-          desc: 'Poda professional d\'arbres ornamentals, fruiters i arbusts amb criteris tècnics.',
-        },
-        {
-          icon: '🏡',
-          title: 'Disseny de jardins',
-          desc: 'Creem jardins a mida adaptats al seu espai, gustos i pressupost.',
+          title: 'Poda d\'arbusts i bardisses',
+          desc: 'Poda, retall i acondicionament d\'arbusts, bardisses i vegetació ornamental de qualsevol tipus.',
         },
         {
           icon: '🍂',
-          title: 'Neteja de terrenys',
-          desc: 'Recollida de fulles, restes vegetals i neteja general de terrenys i finques.',
+          title: 'Neteja de finques i solars',
+          desc: 'Retirada de restes vegetals, brossa i residus de terrenys, finques i solars privats.',
         },
         {
-          icon: '💧',
-          title: 'Sistemes de reg',
-          desc: 'Instal·lació i manteniment de sistemes de reg automàtic eficients.',
+          icon: '🌱',
+          title: 'Tall de gespa i manteniment',
+          desc: 'Tall i adobat de gespa, retall de vores i cura bàsica de zones enjardinades.',
         },
       ],
     },
@@ -68,7 +64,9 @@ export const translations = {
     whyUs: {
       badge: 'Per què nosaltres',
       title: 'Professionals de confiança al Vallès',
-      subtitle: 'Portem més de 10 anys cuidant jardins i parcel·les a la comarca.',
+      subtitle: 'Portem més de 10 anys treballant parcel·les i terrenys a la comarca.',
+      years: 'anys d\'experiència',
+      cta: 'Demana pressupost gratuït',
       items: [
         {
           icon: '⭐',
@@ -85,18 +83,14 @@ export const translations = {
           title: 'Empresa assegurada',
           desc: 'Disposem de totes les assegurances i certificacions professionals necessàries.',
         },
-        {
-          icon: '🌱',
-          title: 'Productes ecològics',
-          desc: 'Utilitzem productes respectuosos amb el medi ambient sempre que és possible.',
-        },
       ],
     },
     // Gallery
     gallery: {
       badge: 'Els nostres treballs',
       title: 'Resultats que parlen per si mateixos',
-      subtitle: 'Una mostra dels jardins i terrenys que hem transformat.',
+      subtitle: 'Una mostra dels terrenys i parcel·les que hem transformat.',
+      cta: 'Demana el teu pressupost',
     },
     // Coverage
     coverage: {
@@ -128,12 +122,11 @@ export const translations = {
         service: 'Servei d\'interès',
         servicePlaceholder: 'Selecciona un servei',
         services: [
-          'Manteniment de jardins',
           'Desbrossament de parcel·les',
-          'Poda d\'arbres i arbusts',
-          'Disseny de jardins',
-          'Neteja de terrenys',
-          'Sistemes de reg',
+          'Tala i poda d\'arbres',
+          'Poda d\'arbusts i bardisses',
+          'Neteja de finques i solars',
+          'Tall de gespa i manteniment',
           'Altres',
         ],
         submit: 'Enviar sol·licitud',
@@ -153,7 +146,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      tagline: 'Professionals de la jardineria al Vallès Occidental des de 2014.',
+      tagline: 'Professionals del desbrossament i la tala d\'arbres al Vallès Occidental des de 2014.',
       links: 'Enllaços',
       legal: 'Avís legal · Política de privacitat',
       rights: 'Tots els drets reservats.',
@@ -170,10 +163,10 @@ export const translations = {
     },
     hero: {
       badge: 'Servicio profesional en el Vallès Occidental',
-      title: 'Tu jardín,',
-      titleHighlight: 'nuestra pasión',
+      title: 'Su finca,',
+      titleHighlight: 'limpia y segura',
       subtitle:
-        'Jardinería, desbroce y mantenimiento de parcelas en Terrassa y el Vallès Occidental. Presupuesto gratuito en 24 horas.',
+        'Desbroce, tala de árboles y limpieza de parcelas en Terrassa y el Vallès Occidental. Presupuesto gratuito en 24 horas.',
       cta: 'Pedir presupuesto gratuito',
       ctaSecondary: 'Ver servicios',
       stats: [
@@ -184,46 +177,44 @@ export const translations = {
     },
     services: {
       badge: 'Lo que hacemos',
-      title: 'Servicios profesionales de jardinería',
+      title: 'Trabajos forestales y de jardinería',
       subtitle:
-        'Ofrecemos una amplia gama de servicios para mantener su jardín y parcela en perfecto estado durante todo el año.',
+        'Desbroce, tala, poda y limpieza de parcelas y terrenos en todo el Vallès Occidental.',
+      cta: 'Pedir presupuesto gratuito',
       items: [
         {
           icon: '🌿',
-          title: 'Mantenimiento de jardines',
-          desc: 'Cuidado integral de su jardín: corte de césped, riego, abonado y tratamientos fitosanitarios.',
+          title: 'Desbroce de parcelas',
+          desc: 'Limpieza y desbroce de terrenos, parcelas y solares descuidados con maquinaria profesional.',
         },
         {
           icon: '🪚',
-          title: 'Desbroce de parcelas',
-          desc: 'Limpieza y desbroce de terrenos, parcelas y solares de cualquier tamaño.',
+          title: 'Tala y poda de árboles',
+          desc: 'Tala, desrrame y poda de árboles de cualquier tamaño con las medidas de seguridad adecuadas.',
         },
         {
           icon: '✂️',
-          title: 'Poda de árboles y arbustos',
-          desc: 'Poda profesional de árboles ornamentales, frutales y arbustos con criterios técnicos.',
-        },
-        {
-          icon: '🏡',
-          title: 'Diseño de jardines',
-          desc: 'Creamos jardines a medida adaptados a su espacio, gustos y presupuesto.',
+          title: 'Poda de arbustos y setos',
+          desc: 'Poda, recorte y acondicionamiento de arbustos, setos y vegetación ornamental de cualquier tipo.',
         },
         {
           icon: '🍂',
-          title: 'Limpieza de terrenos',
-          desc: 'Recogida de hojas, restos vegetales y limpieza general de terrenos y fincas.',
+          title: 'Limpieza de fincas y solares',
+          desc: 'Retirada de restos vegetales, maleza y residuos de terrenos, fincas y solares privados.',
         },
         {
-          icon: '💧',
-          title: 'Sistemas de riego',
-          desc: 'Instalación y mantenimiento de sistemas de riego automático eficientes.',
+          icon: '🌱',
+          title: 'Corte de césped y mantenimiento',
+          desc: 'Corte y abonado de césped, recorte de bordes y cuidado básico de zonas ajardinadas.',
         },
       ],
     },
     whyUs: {
       badge: 'Por qué nosotros',
       title: 'Profesionales de confianza en el Vallès',
-      subtitle: 'Llevamos más de 10 años cuidando jardines y parcelas en la comarca.',
+      subtitle: 'Llevamos más de 10 años trabajando parcelas y terrenos en la comarca.',
+      years: 'años de experiencia',
+      cta: 'Pedir presupuesto gratuito',
       items: [
         {
           icon: '⭐',
@@ -240,17 +231,13 @@ export const translations = {
           title: 'Empresa asegurada',
           desc: 'Disponemos de todos los seguros y certificaciones profesionales necesarios.',
         },
-        {
-          icon: '🌱',
-          title: 'Productos ecológicos',
-          desc: 'Utilizamos productos respetuosos con el medio ambiente siempre que es posible.',
-        },
       ],
     },
     gallery: {
       badge: 'Nuestros trabajos',
       title: 'Resultados que hablan por sí solos',
-      subtitle: 'Una muestra de los jardines y terrenos que hemos transformado.',
+      subtitle: 'Una muestra de los terrenos y parcelas que hemos transformado.',
+      cta: 'Pide tu presupuesto',
     },
     coverage: {
       badge: 'Zonas de servicio',
@@ -280,12 +267,11 @@ export const translations = {
         service: 'Servicio de interés',
         servicePlaceholder: 'Selecciona un servicio',
         services: [
-          'Mantenimiento de jardines',
           'Desbroce de parcelas',
-          'Poda de árboles y arbustos',
-          'Diseño de jardines',
-          'Limpieza de terrenos',
-          'Sistemas de riego',
+          'Tala y poda de árboles',
+          'Poda de arbustos y setos',
+          'Limpieza de fincas y solares',
+          'Corte de césped y mantenimiento',
           'Otros',
         ],
         submit: 'Enviar solicitud',
@@ -304,7 +290,7 @@ export const translations = {
       },
     },
     footer: {
-      tagline: 'Profesionales de la jardinería en el Vallès Occidental desde 2014.',
+      tagline: 'Profesionales del desbroce y la tala de árboles en el Vallès Occidental desde 2014.',
       links: 'Enlaces',
       legal: 'Aviso legal · Política de privacidad',
       rights: 'Todos los derechos reservados.',

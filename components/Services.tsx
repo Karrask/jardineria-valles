@@ -24,31 +24,26 @@ export default function Services({ t }: ServicesProps) {
           {t.services.items.map((service, i) => (
             <div
               key={i}
-              className="group relative bg-white border border-gray-100 rounded-2xl p-7 hover:border-brand-200 hover:shadow-xl hover:shadow-brand-50 transition-all duration-300"
+              className="group bg-white border border-gray-100 rounded-2xl p-7 hover:border-brand-200 hover:shadow-xl hover:shadow-brand-50 transition-all duration-300"
             >
-              {/* Icon */}
               <div className="w-14 h-14 bg-brand-50 group-hover:bg-brand-100 rounded-xl flex items-center justify-center text-2xl mb-5 transition-colors">
                 {service.icon}
               </div>
-
-              {/* Content */}
               <h3 className="text-lg font-bold text-gray-900 mb-2">{service.title}</h3>
               <p className="text-gray-500 text-sm leading-relaxed">{service.desc}</p>
-
-              {/* Arrow */}
-              <div className="mt-5">
-                <a
-                  href="#contacte"
-                  className="inline-flex items-center gap-1 text-brand-700 text-sm font-semibold hover:gap-2 transition-all"
-                >
-                  Demanar pressupost
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </a>
-              </div>
             </div>
           ))}
+        </div>
+
+        {/* Unified CTA */}
+        <div className="text-center mt-14">
+          <a
+            href="#contacte"
+            className="inline-flex items-center gap-2 bg-brand-700 hover:bg-brand-800 text-white font-bold px-10 py-4 rounded-2xl transition-colors text-lg shadow-lg shadow-brand-900/20"
+          >
+            <span>📞</span>
+            {t.services.cta}
+          </a>
         </div>
       </div>
     </section>
