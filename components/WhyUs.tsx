@@ -14,8 +14,8 @@ export default function WhyUs({ t }: WhyUsProps) {
           <div className="relative">
             <div className="relative h-[480px] rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1591825729269-caeb344f6df2?w=900&q=85"
-                alt="Professional treballant en poda i tala d'arbres"
+                src="https://images.unsplash.com/photo-1754321889123-0485c7fea5f1?w=900&q=85"
+                alt="Dos professionals podant un roure en jardí privat"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

@@ -8,11 +8,11 @@ interface HeroProps {
 export default function Hero({ t }: HeroProps) {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background image – workers clearing overgrown land / forestry */}
+      {/* Background image – man felling a tree with a chainsaw */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=85"
-          alt="Professionals treballant en desbrossament de terrenys"
+          src="https://images.unsplash.com/photo-1474742817425-9f91918183b7?w=1920&q=85"
+          alt="Professional tallant un arbre amb motosierra"
           fill
           className="object-cover"
           priority

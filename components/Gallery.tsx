@@ -7,34 +7,34 @@ interface GalleryProps {
 
 const photos = [
   {
-    // Arborist working up in a tree – tree surgery
-    src: 'https://images.unsplash.com/photo-1591825729269-caeb344f6df2?w=800&q=80',
-    alt: 'Treballs de poda professional en altura',
+    // Arborist rappelling down a tree after trimming — verified: poda search
+    src: 'https://images.unsplash.com/photo-1754322449005-bdc38c631682?w=800&q=80',
+    alt: 'Arborista treballant en altura amb equip de seguretat',
   },
   {
-    // Man using chainsaw cutting a tree trunk
-    src: 'https://images.unsplash.com/photo-1562184552-997c461e7a39?w=800&q=80',
+    // Two tree climbers trimming a live oak — verified: poda search
+    src: 'https://images.unsplash.com/photo-1754321889123-0485c7fea5f1?w=800&q=80',
+    alt: 'Dos professionals podant un arbre de grans dimensions',
+  },
+  {
+    // Man using chainsaw to cut a tree — verified: motosierra search
+    src: 'https://images.unsplash.com/photo-1474742509976-ddec6b387356?w=800&q=80',
     alt: 'Tala professional d\'arbres amb motosierra',
   },
   {
-    // Overgrown / dense undergrowth field
-    src: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=800&q=80',
-    alt: 'Parcel·la amb vegetació abundant',
+    // Man with chainsaw cutting a log — verified: motosierra search
+    src: 'https://images.unsplash.com/photo-1641366784341-446c64b421a2?w=800&q=80',
+    alt: 'Tall de troncs amb motosierra professional',
   },
   {
-    // Workers clearing brush / land
-    src: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80',
-    alt: 'Neteja i desbrossament de terrenys',
+    // Professional with chainsaw in forest — verified: motosierra search
+    src: 'https://images.unsplash.com/photo-1663436295685-4ad55cb30362?w=800&q=80',
+    alt: 'Professional forestal treballant en terreny boscós',
   },
   {
-    // Fallen logs / tree felling result
-    src: 'https://images.unsplash.com/photo-1511497584788-876760111969?w=800&q=80',
-    alt: 'Resultat de tala i neteja forestal',
-  },
-  {
-    // Tree pruning with professional tools
-    src: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800&q=80',
-    alt: 'Poda professional d\'arbres ornamentals',
+    // Tree stump after felling with chainsaw — verified: motosierra search
+    src: 'https://images.unsplash.com/photo-1636706529713-7cceb3d46365?w=800&q=80',
+    alt: 'Resultat de tala: soca d\'arbre i motosierra',
   },
 ]
 
