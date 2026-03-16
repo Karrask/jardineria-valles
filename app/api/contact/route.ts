@@ -2,15 +2,16 @@ import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@supabase/supabase-js'
 import { Resend } from 'resend'
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-)
-
-const resend = new Resend(process.env.RESEND_API_KEY)
-const notificationEmail = process.env.NOTIFICATION_EMAIL ?? 'tu@email.com'
+export const dynamic = 'force-dynamic'
 
 export async function POST(req: NextRequest) {
+  const supabase = createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+  )
+  const resend = new Resend(process.env.RESEND_API_KEY)
+  const notificationEmail = process.env.NOTIFICATION_EMAIL ?? 'tu@email.com'
+
   try {
     const { name, phone, municipality, service } = await req.json()
 
